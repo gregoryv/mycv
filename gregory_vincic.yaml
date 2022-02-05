@@ -1,0 +1,394 @@
+person:
+  name: Gregory Vincic
+  image: https://www.7de.se/pub/me_circle.png
+
+  description: Gregory is an experienced system developer with a focus
+    on backend and web development. In recent years, he has focused on
+    backend in large-scale systems. With his appetite for technology,
+    high motivation and drive, he has successfully implemented many
+    projects.  He is a high-performing developer who strives for,
+    quality and maintainability in his solutions. Gregory likes to
+    share his experiences and has held several courses in the Go
+    language.
+
+technicalskills:
+  - item: Java
+    e: 3
+    years: 5
+    lastused: 2011
+  - item: SQL
+    e: 1
+    years: 3
+  - item: Javascript
+    e: 3.5
+    years: 10
+  - item: Perl
+    e: 3
+    years: 12
+  - item: XPath
+    e: 1.7
+    years: 5
+  - item: XSL
+    e: 1.9
+    years: 3
+  - item: XML
+    e: 1.8
+    years: 7
+  - item: CSS
+    e: 2.9
+    years: 9
+  - item: Python
+    e: 4
+    years: 3
+  - item: Bash
+    e: 3
+    years: 14
+  - item: PHP
+    e: 4
+    years: 3
+  - item: Go
+    e: 5
+    years: 1
+  - item: HTML
+    e: 3
+    years: 14
+  - item: Mustache
+    e: 3
+    years: 2
+  - item: AJAX
+    e: 3.1
+    years: 5
+  - item: ExtJS
+    e: 3
+    years: 2
+  - item: Design
+    e: 2
+    years: 7
+  - item: HTTP
+    e: 3
+    years: 15
+  - item: Hibernate
+    e: 2
+    years: 5
+    lastused: 2011
+  - item: REST
+    e: 4
+    years: 5
+  - item: ORM
+    e: 2
+    years: 5
+    lastused: 2011
+  - item: JQuery
+    e: 4
+    years: 4
+  - item: BackboneJS
+    e: 2
+    years: 1
+  - item: RequireJS
+    e: 2
+    years: 1
+  - item: Marionette
+    e: 3
+    years: 1
+  - item: Underscore
+    e: 2
+    years: 1
+  - item: FastCGI
+    e: 3
+    years: 3
+  - item: SSL
+    e: 3
+    years: 2
+
+      
+languages:
+  - item: Swedish
+    e: 4
+    level: Native language
+  - item: Polish
+    e: 2
+    level: Speach ok, though can barely read it
+  - item: English
+    e: 3.8
+    level: Good speach, read and writing skills
+  - item: German
+    e: 1
+    level: Knows a few words
+  - item: Serbian
+    e: 2
+    level: Speach ok, little read and write
+
+educations:
+  - subject: Bioinformatics
+    grade: Master
+    period:
+      fromyear: 2003
+      toyear: 2004
+    location: Lund University
+
+  - subject: Computer Science
+    grade: Bachelor
+    period:
+      fromyear: 1996
+      toyear: 1999
+    location: Växjö University
+
+
+projects:
+  - title: Hospitality Vostio
+    customer: AssaAbloy
+    period:
+      fromyear: 2020
+      toyear: 2022
+    tags:
+      - Go
+      - AWS
+      - Lambda
+      - Cloud-formation
+      - Gitlab
+      - DynamoDB
+      - MQTT
+    roles:
+      - role: Developer
+      - role: Mentor
+
+    short: Access control systems for the hotel industry. Services
+      that communicate with IoT devices to encode cards that are then
+      used in their various locking platforms.
+
+    more: The IoT communication has been built on the AWS IoT
+      platform with MQTT protocol.  Worked in an extremely close-knit
+      team that handled everything from embedded firmware development
+      to cloud services. Contributed to both new cloud services and
+      further development of applications on the devices.
+      
+  - title: Confidential
+    customer: Axis
+    period:
+      fromyear: 2019
+      toyear: 2022
+    tags:
+      - Go
+      - AWS
+      - Lambda
+      - DynamoDB
+      - Github
+      - Jira
+      - Confluence
+    role:
+      - role: Developer
+          
+    short: Cloud service with microservice design with automated CI.
+
+    more: Automated the entire flow from development to production
+      with github workflows. Focused on a high test coverage at unit
+      level. Resolved issues with database update during deployment to
+      avoid downtime in the service.
+        
+  - title: Connect
+    customer: Axis
+    period:
+      fromyear: 2017
+      toyear: 2019
+    tags:
+      - Go
+      - Python
+      - Kubernetes
+      - AWS
+      - Gitlab
+    roles:
+      - role: Developer
+    short: Upgrade service for cloud connected cameras and speakers.
+      
+    more: Got into the project early with a great opportunity to
+      influence the design. Implemented packages for gradual database
+      updates and made it possible to test the system on a large scale
+      with thousands of virtual devices. The focus towards the end was
+      on proxy traffic between IoT and the cloud where performance was
+      in focus.
+        
+  - title: AVHS
+    customer: Axis
+    period:
+      fromyear: 2015
+      toyear: 2017
+    tags:
+      - PHP
+      - Javascript
+      - NodeJS
+      - Git
+      - Gerrit
+      - Jenkins
+      - MySQL
+      - Apache2
+      - HAproxy
+      - Go
+      - Docker
+    roles:
+      - role: Developer
+    more: Backend for video hosting system in the
+      cloud. Developed several new features in the existing system and
+      drove modularization and CI integration for several parts of the
+      product. The product was gradually broken away from a monolithic
+      system in smaller services with the goal of being able to run in
+      Docker on AWS.  Held trainings and presentations on quality work
+      and testing as well as design of REST based backend systems.
+
+  - title: Solution Designer
+    customer: AXIS
+    period:
+      fromyear: 2014
+      toyear: 2014
+    tags:
+      - Sproutcore
+      - Javascript
+      - Grunt
+      - PhantomJS
+      - Git
+      - Jquery
+      - JqueryUI
+    roles:
+      - role: Developer
+    more: Web application for planning surveillance projects
+      with AXIS camera products. An existing application was expanded
+      with new report views including a graphical display of their
+      product range.
+  - title: Hypergene
+    customer: Hypergene AB
+    period:
+      fromyear: 2011
+      toyear: 2014
+    url: www.hypergene.se
+    tags:
+      -  BI
+      -  ExtJS
+      -  Python
+      -  PHP
+      -  Javascript
+      -  Phing
+      -  Continuous Integration
+      -  Trac
+      -  Subversion
+    roles:
+      - role: Developer
+    more: Plattform for building business intelligence solutions. In
+      this project I improved the continuous integration tools and
+      test process. In the product I worked initially on the web GUI
+      with technologies such as Senchas extjs.  I was responsible for
+      the strategic management module of the system.
+
+  - title: Proteios SE
+    customer: Lund University
+    period:
+      fromyear: 2007
+      toyear: 2011
+    url: www.proteios.org
+    tags:
+      -  Proteomics
+      -  Ant
+      -  Java
+      -  Javascript
+      -  HTML
+      -  CSS
+    roles:
+      - role: Lead developer
+      - role: Teacher
+    more: A multi-user platform for analysis and management of
+      proteomics data. In this project I was lead developer writing
+      code in all layers. My main contribution would be the design of
+      a framwork for writing GUI using java only wich translated into
+      HTML and javascript.  <br> Was also involved in teaching Perl
+      for bioinformaticians.  Responsible for architecture and
+      framework development.
+
+  - title: svntrac
+    customer: Lund University
+    period:
+      fromyear: 2008
+      toyear: 2008
+    url: dev.thep.lu.se/gregory
+    tags:
+      -  Subversion
+      -  PostgreSQL
+      -  Perl
+      -  Linux
+    more: Trac and subversion management script. Easily setup and
+      backup instances of trac connected to a subversion repository.
+  - title: BitBock
+    customer: Lund University
+    period:
+      fromyear: 2008
+      toyear: 2009
+    url: www.bitbock.com
+    tags:
+      -  Cluster
+      -  Javascript
+      -  HTML
+      -  CSS
+      -  Bash
+      -  Linux
+    more: Web interface for command line tools in a cluster
+     environment. With this tool I tried to solve the issue of
+     creating useful graphical userinterfaces for many command-line
+     tools which are used in cluster environments.
+  - title: BASE Migration Tool
+    customer: Lund University
+    period:
+      fromyear: 2005
+      toyear: 2006
+    url: base.thep.lu.se
+    tags:
+      -  Bioinformatics
+      -  Java
+      -  MySQL
+      -  Hibernate
+      -  Ant
+    more: Large data migration between BASE 1 and BASE 2 versions.
+  - title: C-Pen
+    customer: C-Technologies
+    period:
+      fromyear: 2002
+      toyear: 2002
+    url: www.cpen.com
+    roles:
+      - role: Entrepreneur
+    tags:
+      -  E-Shop
+      -  Zope
+      -  Python
+      -  Java
+      -  Debitech
+    more: E-Shop with payment services through Debitech.
+  - title: XMLbasedSRS
+    customer: Top Right Blue
+    period:
+      fromyear: 2002
+      toyear: 2002
+    url: xmlbasedsrs.tigris.org
+    roles:
+      - role: Entrepreneur
+    tags:
+      -  XML
+      -  XSL
+      -  HTML
+      -  Javascript
+    more: Requirements engineering using standardized XML
+      documents. Open source project I started while running my own
+      business Top Right Blue, to help my customers elicit valuable
+      information for new projects.
+
+  - title: Cadtorget
+    customer: Innodev AB
+    period:
+      fromyear: 2000
+      toyear: 2001
+    url: www.cadtorget.se
+    roles:
+      - role: Developer
+      - role: Team leader
+    tags:
+      -  E-Shop
+      -  Portal
+      -  Perl
+      -  Sybase
+    more: Portal with e-shop and community calendar etc.
