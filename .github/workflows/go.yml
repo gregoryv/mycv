@@ -1,0 +1,29 @@
+name: Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: 1.17
+
+    - name: Install cv
+      run: go install github.com/preferit/cv@latest
+
+    - name: Make CV
+      run: |
+        mkdir dist
+        cv -cv ./gregory_vincic.yaml --max-skills 20 --max-projects 7 -s public/short.html
+        cv -cv ./gregory_vincic.yaml --template full -s public/full.html
+        cd public
+        ln -s short.html index.html
+      
