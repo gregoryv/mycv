@@ -3,16 +3,16 @@
 case $1 in
     dist)
 	$0 clean build
-	cd public
+	cd docs
 	ln -s short.html index.html
 	;;
     build)
-	mkdir public
-	cv -cv ./gregory_vincic.yaml --max-skills 20 --max-projects 7 -s public/short.html
-	cv -cv ./gregory_vincic.yaml --template full -s public/full.html	
+	mkdir docs
+	cv -cv ./gregory_vincic.yaml --max-skills 20 --max-projects 7 -s docs/short.html
+	cv -cv ./gregory_vincic.yaml --template full -s docs/full.html	
 	;;
     clean)
-	rm -rf public
+	rm -rf docs
 	;;
     *)
 	$0 build
