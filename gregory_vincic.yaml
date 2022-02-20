@@ -100,23 +100,22 @@ technicalskills:
     e: 3
     years: 2
 
-      
 languages:
   - item: Swedish
     e: 4
     level: Native language
-  - item: Polish
-    e: 2
-    level: Speach ok, though can barely read it
   - item: English
     e: 3.8
     level: Good speach, read and writing skills
-  - item: German
-    e: 1
-    level: Knows a few words
+  - item: Polish
+    e: 2
+    level: Speach ok, though can barely read it
   - item: Serbian
     e: 2
     level: Speach ok, little read and write
+  - item: German
+    e: 1
+    level: Knows a few words
 
 educations:
   - subject: Bioinformatics
@@ -133,8 +132,7 @@ educations:
       toyear: 1999
     location: Växjö University
 
-
-projects:
+experience:
   - title: Hospitality Vostio
     customer: AssaAbloy
     period:
@@ -149,8 +147,8 @@ projects:
       - DynamoDB
       - MQTT
     roles:
-      - role: Developer
-      - role: Mentor
+      - Developer
+      - Mentor
 
     short: Access control systems for the hotel industry. Services
       that communicate with IoT devices to encode cards that are then
@@ -166,7 +164,7 @@ projects:
     customer: Axis
     period:
       fromyear: 2019
-      toyear: 2022
+      toyear: 2020
     tags:
       - Go
       - AWS
@@ -176,7 +174,7 @@ projects:
       - Jira
       - Confluence
     role:
-      - role: Developer
+      - Developer
           
     short: Cloud service with microservice design with automated CI.
 
@@ -197,7 +195,7 @@ projects:
       - AWS
       - Gitlab
     roles:
-      - role: Developer
+      - Developer
     short: Upgrade service for cloud connected cameras and speakers.
       
     more: Got into the project early with a great opportunity to
@@ -225,7 +223,7 @@ projects:
       - Go
       - Docker
     roles:
-      - role: Developer
+      - Developer
     more: Backend for video hosting system in the
       cloud. Developed several new features in the existing system and
       drove modularization and CI integration for several parts of the
@@ -248,7 +246,7 @@ projects:
       - Jquery
       - JqueryUI
     roles:
-      - role: Developer
+      - Developer
     more: Web application for planning surveillance projects
       with AXIS camera products. An existing application was expanded
       with new report views including a graphical display of their
@@ -270,7 +268,7 @@ projects:
       -  Trac
       -  Subversion
     roles:
-      - role: Developer
+      - Developer
     more: Plattform for building business intelligence solutions. In
       this project I improved the continuous integration tools and
       test process. In the product I worked initially on the web GUI
@@ -290,47 +288,26 @@ projects:
       -  Javascript
       -  HTML
       -  CSS
+      - PostgreSQL
+      - Perl
+      - Linux
+      - Bash
     roles:
-      - role: Lead developer
-      - role: Teacher
-    more: A multi-user platform for analysis and management of
+      - Lead developer
+      - Teacher
+    short: A multi-user platform for analysis and management of
       proteomics data. In this project I was lead developer writing
-      code in all layers. My main contribution would be the design of
-      a framwork for writing GUI using java only wich translated into
-      HTML and javascript.  <br> Was also involved in teaching Perl
-      for bioinformaticians.  Responsible for architecture and
-      framework development.
+      code in all layers.
+        
+    more: My main contribution would be the design of a framwork for
+      writing GUI using java only wich translated into HTML and
+      javascript. <br> Was also involved in teaching Perl for
+      bioinformaticians. Responsible for architecture and framework
+      development.<br>Did parallel projects such as svntrac for
+      maintaining subversion repositories in the departement. Also
+      developed BitBock, a user interface to many command-line tools
+      running on beowulf cluster.
 
-  - title: svntrac
-    customer: Lund University
-    period:
-      fromyear: 2008
-      toyear: 2008
-    url: dev.thep.lu.se/gregory
-    tags:
-      -  Subversion
-      -  PostgreSQL
-      -  Perl
-      -  Linux
-    more: Trac and subversion management script. Easily setup and
-      backup instances of trac connected to a subversion repository.
-  - title: BitBock
-    customer: Lund University
-    period:
-      fromyear: 2008
-      toyear: 2009
-    url: www.bitbock.com
-    tags:
-      -  Cluster
-      -  Javascript
-      -  HTML
-      -  CSS
-      -  Bash
-      -  Linux
-    more: Web interface for command line tools in a cluster
-     environment. With this tool I tried to solve the issue of
-     creating useful graphical userinterfaces for many command-line
-     tools which are used in cluster environments.
   - title: BASE Migration Tool
     customer: Lund University
     period:
@@ -351,7 +328,7 @@ projects:
       toyear: 2002
     url: www.cpen.com
     roles:
-      - role: Entrepreneur
+      - Entrepreneur
     tags:
       -  E-Shop
       -  Zope
@@ -366,7 +343,7 @@ projects:
       toyear: 2002
     url: xmlbasedsrs.tigris.org
     roles:
-      - role: Entrepreneur
+      - Entrepreneur
     tags:
       -  XML
       -  XSL
@@ -384,8 +361,8 @@ projects:
       toyear: 2001
     url: www.cadtorget.se
     roles:
-      - role: Developer
-      - role: Team leader
+      - Developer
+      - Team leader
     tags:
       -  E-Shop
       -  Portal
