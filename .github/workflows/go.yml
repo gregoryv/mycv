@@ -19,11 +19,6 @@ jobs:
     - name: Install cv
       run: go install github.com/preferit/cv@latest
 
-    - name: Make CV
-      run: |
-        mkdir dist
-        cv -cv ./gregory_vincic.yaml --max-skills 20 --max-projects 7 -s public/short.html
-        cv -cv ./gregory_vincic.yaml --template full -s public/full.html
-        cd public
-        ln -s short.html index.html
+    - name: Build CV
+      run: ./steps.sh dist
       
