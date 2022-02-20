@@ -2,14 +2,13 @@
 #set -o xtrace	
 case $1 in
     dist)
-	$0 clean build
 	cd docs
 	ln -s short.html index.html
 	;;
     build)
-	mkdir docs
-	cv -cv ./gregory_vincic.yaml --max-skills 20 --max-projects 7 -s docs/short.html
-	cv -cv ./gregory_vincic.yaml --template full -s docs/full.html	
+	mkdir -p docs
+	cv -cv ./gregory_vincic.yaml -co ../../preferit/cv/preferit.yaml --max-skills 20 --max-projects 7 -s docs/short.html
+	cv -cv ./gregory_vincic.yaml -co ../../preferit/cv/preferit.yaml --template full -s docs/full.html	
 	;;
     clean)
 	rm -rf docs
