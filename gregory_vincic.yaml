@@ -133,11 +133,28 @@ educations:
     location: Växjö University
 
 experience:
+  - title: Confidential
+    customer: Wireless Car
+    period:
+      fromyear: 2021
+    tags:
+      - Go
+      - Embeded
+      - Doker
+      - Azure
+      - DevOps
+      - MQTT
+    roles:
+      - Developer
+    short: Control system for electrical vehicle services such as
+      climate and charging.
+    more: Collaboration with many teams, both locally and abroad.
+
   - title: Hospitality Vostio
     customer: AssaAbloy
     period:
       fromyear: 2020
-      toyear: 2022
+      toyear: 2021
     tags:
       - Go
       - AWS
