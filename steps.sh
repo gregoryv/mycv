@@ -8,7 +8,7 @@ case $1 in
     build)
 	mkdir -p docs
 	cv -cv ./gregory_vincic.yaml -co ../../preferit/cv/preferit.yaml --max-skills 20 --max-projects 7 -s docs/short.html
-	cv -cv ./gregory_vincic.yaml -co ../../preferit/cv/preferit.yaml --template full -s docs/full.html	
+	cv -cv ./gregory_vincic.yaml -co ../../preferit/cv/preferit.yaml -e -s docs/full.html	
 	;;
     clean)
 	rm -rf docs
