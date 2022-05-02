@@ -143,12 +143,15 @@ experience:
       - Doker
       - Azure
       - DevOps
+      - Github
       - MQTT
+      - Protobuf
+      - GRPC
     roles:
       - Developer
     short: Control system for electrical vehicle services such as
       climate and charging.
-    more: Collaboration with many teams, both locally and abroad.
+    more: Collaboration with many teams, both locally and abroad. 
 
   - title: Hospitality Vostio
     customer: AssaAbloy
