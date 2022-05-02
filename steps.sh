@@ -13,6 +13,9 @@ case $1 in
     clean)
 	rm -rf docs
 	;;
+    publish)
+	rsync -av ./docs/ www.7de.se:/var/www/www.7de.se/cv
+	;;
     *)
 	$0 build
 	;;    
