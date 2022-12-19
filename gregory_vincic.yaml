@@ -41,7 +41,7 @@ technicalskills:
     e: 4
     years: 3
   - item: Bash
-    e: 3
+    e: 4
     years: 14
   - item: PHP
     e: 4
@@ -140,7 +140,7 @@ experience:
     tags:
       - Go
       - Embeded
-      - Doker
+      - Docker
       - Azure
       - DevOps
       - Github
@@ -225,7 +225,7 @@ experience:
       on proxy traffic between IoT and the cloud where performance was
       in focus.
         
-  - title: AVHS
+  - title: Axis Video Hosting System
     customer: Axis
     period:
       fromyear: 2015
@@ -271,6 +271,7 @@ experience:
       with AXIS camera products. An existing application was expanded
       with new report views including a graphical display of their
       product range.
+
   - title: Hypergene
     customer: Hypergene AB
     period:
