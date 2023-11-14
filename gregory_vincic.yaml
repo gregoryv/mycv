@@ -133,6 +133,28 @@ educations:
     location: Växjö University
 
 experience:
+  - title: Retail Management Platform
+    customer: Schneider Electric
+    period:
+      fromyear: 2022
+    tags:
+      - Go
+      - Embeded
+      - Docker
+      - Azure
+      - DevOps
+      - Github
+      - MQTT
+      - Protobuf
+    roles:
+      - Developer
+    short: Control system for building operations in the retail segment.
+    more: Designed and implemented the agent running on site
+      enabling remote administration and realtime data flow. Also
+      helped several teams to improve their Go programming skills from
+      novice to more advanced concurrency development.
+
+
   - title: Confidential
     customer: Wireless Car
     period:
